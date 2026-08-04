@@ -88,8 +88,8 @@ cast call 0xD8E8328501E9645d16Cf49539efC04f734606ee4 \
   --rpc-url https://arb1.arbitrum.io/rpc
 ```
 
-A registered contract returns a non-zero address. `0x000…000` means the name is misspelled or not on
-this chain. Then cross-check the returned address on
+A registered contract returns a non-zero address. `0x000…000` means the name is misspelled, not on
+this chain, or not proxied (for `…Target` lookups). Then cross-check the returned address on
 [Arbiscan](https://arbiscan.io/accounts/label/livepeer) or
 [Blockscout](https://arbitrum.blockscout.com): it should carry a `Livepeer:` label and verified
 source.
